@@ -39,7 +39,7 @@ body {
 @media (max-width: 479px) {
   .card {
     left: calc(50% - 75px);
-    top: calc(50% - 207px);
+    top: calc(50% - 267px);
   }
 }
 .card:before {
@@ -99,14 +99,13 @@ body {
 }
 .card,
 .card-page {
-  width: 350px;
+  width: 450px;
   height: 800px;
 }
 @media (max-width: 767px) {
   .card,
 .card-page {
     width: 230px;
-    height: 329px;
     height: 629px;
   }
 }
@@ -114,7 +113,7 @@ body {
   .card,
 .card-page {
     width: 150px;
-    height: 414px;
+    height: 474px;
   }
 }
 
@@ -178,15 +177,18 @@ body {
 
   flex-direction: column;
   transition: all 1s;
+
+  overflow: hidden;
 }
 
 /* 편지지 크게 */
 .cart-page-bottom.on {
     width: 198%;
-    transform: translateX(-47.5%);
+    transform: translateX(-47.8%);
     z-index: 2;
     background-color: cornflowerblue;
 }
+
 
 @media (max-width: 767px) {
   .cart-page-inside,
@@ -869,11 +871,11 @@ html, body {
 /*  */
 .typing-txt {
     display: none;
-    font-size: 40px;
+    font-size: 34px;
 }
 
 .typing {
-    font-size: 40px;
+    font-size: 34px;
     margin-left: -25px;
 }
 
@@ -914,7 +916,7 @@ ul {
 
 @media (max-width: 767px) {
     p, .typing, .typing-txt {
-        font-size: 26px;
+        font-size: 24px;
     }
 
     p.to {
@@ -933,7 +935,7 @@ ul {
 }
 @media (max-width: 479px) {
   p, .typing, .typing-txt {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   p.to {
