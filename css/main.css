@@ -250,7 +250,7 @@ body {
 .click-icon {
   position: absolute;
   left: 50%;
-  top: 10%;
+  top: 50%;
   transform: translate(-50%, -50%);
   -webkit-animation: iconAnimation 1s infinite alternate ease-in-out;
   animation: iconAnimation 1s infinite alternate ease-in-out;
